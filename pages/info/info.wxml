@@ -1,0 +1,21 @@
+<!--pages/info/info.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <input placeholder="标题" />
+    <input name="input" placeholder="简介" />
+  </view>
+    <textarea placeholder="详细介绍"></textarea>
+  <view>
+  <view>联系方式 </view>
+  <input placeholder="微信id" />
+  <input placeholder="电话号码" />
+  </view>
+
+  <view>地址</view>
+  <map></map>
+  
+
+  <view class="btn-area">
+    <button form-type="submit">提交</button>
+  </view>
+</form>
